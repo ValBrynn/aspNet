@@ -1,0 +1,28 @@
+﻿@model MessageDetailviewmodel
+@{
+    ViewData["Title"] = "Inbox";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <section>
+            <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+
+                <hr />
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <h3>Your Inbox </h3>
+                    <pre class="tab"> Titel                      Date/Time</pre>      
+                    <h3>
+                        @foreach (var email in Model.getMsg2)
+                        {
+                         <h3> @email.title &nbsp;  @email.sendTimeStample <button name="submit2" type="submit" class="btn btn-default" value="@email.msgID">Message</button></h3>
+                        }
+                    </h3>
+                    <span asp-validation-for="getMsg2" class="text-danger"></span>
+                </div>
+            </form>
+           
+        </section>
+    </div>
+</div>

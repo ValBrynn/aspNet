@@ -1,0 +1,25 @@
+﻿@model TheMassageviewmodel
+@{
+    ViewData["Title"] = "TheMessage";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <section>
+            <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+
+                <hr />
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <h3>Your Message </h3>
+                    <h3>
+                        @Html.DisplayFor(model => model.getMsg2)
+                        <div><button name="Deleted" type="submit" class="btn btn-default" value=Deleted> Deleted The message</button> </div>
+                    </h3>
+                    <span asp-validation-for="getMsg2" class="text-danger"></span>
+                </div>
+            </form>
+
+        </section>
+    </div>
+</div>

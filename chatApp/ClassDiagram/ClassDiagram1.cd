@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="chatApp.Models.Message">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAgAAAAAAAABAgAAABAAAABAEAACA=</HashCode>
+      <FileName>Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatApp.Models.userLoginInfo">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>userLoginInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatApp.Models.InfoHandler">
+    <Position X="11.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAIBRBAAQAAAAAJgAAAAAAABQCAAAAQQAAQAAAA=</HashCode>
+      <FileName>InfoHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatApp.Models.Homeviewmodel.InboxViewModel">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAgAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Inboxviewmodel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatApp.Models.Homeviewmodel.Indexviewmodel">
+    <Position X="8.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAQAIAAAAAA=</HashCode>
+      <FileName>Indexviewmodel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatApp.Models.Homeviewmodel.MessageDetailviewmodel">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>MessageDetailviewmodel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatApp.Models.Homeviewmodel.NewMassageviewmodel">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAEAAAFAAAAIAAQAAA=</HashCode>
+      <FileName>NewMassageviewmodel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatApp.Models.Homeviewmodel.TheMassageviewmodel">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>TheMassageviewmodel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatApp.Controllers.HomeController">
+    <Position X="15.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAQAAAAYAAEABAAAAAAAAAAAAABAEABAAAAAA=</HashCode>
+      <FileName>HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatApp.Controllers.AccountController">
+    <Position X="13.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACBAAgQAAAAAAAAABAAAIAIACBAIAAEAEQAAAgAAA=</HashCode>
+      <FileName>AccountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatApp.Data.ApplicationDbContext">
+    <Position X="16.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAEAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>ApplicationDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatApp.Models.ApplicationUser">
+    <Position X="19.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
